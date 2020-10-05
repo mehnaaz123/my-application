@@ -9,29 +9,29 @@
 
     <TextView
         android:id="@+id/title"
+        android:text="Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Title"
         android:textSize="25sp"
         android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/description"
+        android:text="Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:padding="20dp"
-        android:text="Description"
         android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/details"
+        android:text="Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:padding="20dp"
-        android:text="Details"
         android:textSize="18sp" />
 
 </LinearLayout>
