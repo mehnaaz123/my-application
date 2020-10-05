@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(MainActivity.this, 1);
-        mRecyclerView.setLayoutManager(gridLaoutManagr);
+        mRecyclerView.setLayoutManager(gridLayoutManager);
 
         myMemoList = new ArrayList<>();
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         myMemoList.add(myMemoData);
 
         myMemoData = new MemoData("Grocery List", "Remember to buy these on your way from the dentist appointment on Thursday!", " Milk\n Bread\n Eggs\n Bagels\n Plastic Cups\n Noodles\n Coriander\n Oregano");
-        myMemoList.add(myMemoDat);
+        myMemoList.add(myMemoData);
 
         myMemoData = new MemoData("Textbooks To Buy", "Order Sadaf's textbooks for her classes this semester", " https://www.amazon.ca/Canadian-Criminal-Justice-Curt-Griffiths/dp/0176529209\n\n https://www.wiley.com/en-us/Big+Java%3A+Late+Objects%2C+1st+Edition-p-9781119626152#:~:text=Big%20Java%3A%20Late%20Objects%2C%201st%20Edition%20%7C%20Wiley,first%20course%20in%20programming%20for%20computer%20science%20students.");
         myMemoList.add(myMemoData);
