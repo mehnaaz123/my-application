@@ -15,6 +15,7 @@ public class MemoDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memo_details);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         memoTitle = (TextView) findViewById(R.id.title);
         memoDescription = (TextView) findViewById(R.id.description);
