@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/title"
-        android:text="Title"
+        android:text="@string/Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -18,7 +18,7 @@
 
     <TextView
         android:id="@+id/description"
-        android:text="Description"
+        android:text="@string/Description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -27,7 +27,7 @@
 
     <TextView
         android:id="@+id/details"
-        android:text="Details"
+        android:text="@string/Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
